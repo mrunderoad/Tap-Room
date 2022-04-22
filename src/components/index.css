@@ -14,5 +14,39 @@ code {
 
 body {
   text-align: center;
-  background-color: grey;
+  background-color: rgb(185, 185, 185);
+} 
+
+.list {
+  background-color: aquamarine;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+input {
+  background-color: rgb(255, 213, 0);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.head {
+  color: antiquewhite;
+  text-shadow: 2px 2px 2px black;
+}
+
+.flav {
+  color: blue;
+}
+
+.price {
+  color: greenyellow;
+}
+
+.pint {
+  color: rgb(122, 52, 52);
+}
+
+button {
+  background-color: black;
+  color: red;
 }

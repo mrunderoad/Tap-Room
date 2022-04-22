@@ -15,10 +15,10 @@ function KegDetail(props){
       <h1>Keg Details</h1>
       <h2>Brand: {keg.brand}</h2>
       <h3>Name: {keg.name}</h3>
-      <h3>Flavor: {keg.flavor}</h3>
-      <h3>Price: ${keg.price}</h3>
+      <h3 class="flav">Flavor: {keg.flavor}</h3>
+      <h3 class="price">Price: ${keg.price}</h3>
       <h3>Caffeine Content: {keg.caffeineContent}</h3>
-      <h4>Pints left: {keg.pint}</h4>
+      <h4 class="pint">Pints left: {keg.pint}</h4>
       <p>{kegMessage}</p>
       <hr />
       <button onClick={ props.onClickingEdit }>Update Keg Details</button> { }
