@@ -6,7 +6,7 @@ function KegDetail(props){
   let disabled = false;
   let kegMessage = null;
   if (keg.pint === 0) {
-    kegMessage = "This Keg has been tapped out!";
+    kegMessage = "This Keg has been 86'd!";
     disabled = true;
   } 
 
@@ -15,6 +15,7 @@ function KegDetail(props){
       <h1>Keg Details</h1>
       <h2>Brand: {keg.brand}</h2>
       <h3>Name: {keg.name}</h3>
+      <h3>Flavor: {keg.flavor}</h3>
       <h3>Price: ${keg.price}</h3>
       <h3>Caffeine Content: {keg.caffeineContent}</h3>
       <h4>Pints left: {keg.pint}</h4>
