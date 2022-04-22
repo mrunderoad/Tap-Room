@@ -63,6 +63,16 @@ class KegControl extends React.Component {
     });
   }
 
+  // handlePintClick = (pint) => {
+  //   const decrementPintCount = this.state.mainKegList.filter(keg => keg.id !== this.state.selectedKeg.id).concat(pint);
+  //   this.setState({
+  //     mainKegList: decrementPintCount,
+  //     editing: false,
+  //     selectedKeg: null,
+  //     pint: this.pints -1
+  //   });
+  // }
+
   render(){
     let currentlyVisibleState = null;
     let buttonText= null;
