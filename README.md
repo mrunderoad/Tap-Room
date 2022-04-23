@@ -3,7 +3,11 @@
 
 ### _This project is a React project demonstrating CRUD functionality._
 
-## 
+## Technologies Used
+
+## Diagram
+
+![](./Dirgram2.drawio.png)
 
 
 

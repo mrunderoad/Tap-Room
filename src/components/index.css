@@ -19,8 +19,9 @@ body {
 
 .list {
   background-color: aquamarine;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 5px;
 }
 
 input {
@@ -57,4 +58,14 @@ button {
 
 .message2 {
   color: yellow;
+}
+
+.line {
+  width: 400px;
+}
+
+.click {
+  background-color: yellow;
+  width: 120px;
+  margin-left: 202px;
 }
