@@ -76,6 +76,20 @@ class KegControl extends React.Component {
     this.handleChangingSelectedKeg(kegPint.id)
   }
 
+  handleRefillClick = () => {
+    const keg = this.state.selectedKeg;
+    const refill = {
+      name: keg.name,
+      brand: keg.brand,
+      price: keg.price,
+      caffeineContent: keg.caffeineContent,
+      pint: keg.pint = 124,
+      id: keg.id
+    }
+    this.handleChangingSelectedKeg(refill.id)
+    
+  }
+
   render(){
     let currentlyVisibleState = null;
     let buttonText= null;
@@ -84,7 +98,7 @@ class KegControl extends React.Component {
       currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} onEditKeg = {this.handleEditingKegInList} />;
       buttonText = "Return to Keg List";
     } else if (this.state.selectedKeg != null) {
-      currentlyVisibleState = <KegDetail keg = {this.state.selectedKeg} onClickingDelete = {this.handleDeletingKeg} onClickingEdit = {this.handleEditClick} onClickingPint = {this.handlePintClick} />;
+      currentlyVisibleState = <KegDetail keg = {this.state.selectedKeg} onClickingDelete = {this.handleDeletingKeg} onClickingEdit = {this.handleEditClick} onClickingPint = {this.handlePintClick} onClickingRefill = {this.handleRefillClick} />;
       buttonText = "Return to Keg List";
     } else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewKegForm onNewKegCreation = {this.handleAddingNewKegToList} />;
