@@ -4,10 +4,37 @@
 ### _This project is a React project demonstrating CRUD functionality._
 
 ## Technologies Used
+* _React_
+* _JavaScript_
+* _JSX_
+* _HTML_
+* _CSS_
+* _Node_
 
 ## Diagram
-
 ![](./Dirgram2.drawio.png)
+
+### Description
+_This project, made for Epicodus week 16 using React is a tap room site where users can add, delete, read and update kegs. Users are also able to pour themselves a pint and view how many more pints are left in a keg and refill teh keg if it is low._
+
+### Setup and Installation
+
+* _Clone this repository onto your local machine from `https://github.com/mrunderoad/Tap-Room`._
+* _Navigate to the project on your computer using `cd Tap-Room`._
+* _Once in the project run `npm install` in your terminal to install packages included in the repo._
+* _Finally, run `npm run start` in your terminal to start the project in your browser._
+
+### Bugs
+_No known bugs_
+
+## License - [MIT](https://opensource.org/licenses/MIT)
+
+ _Copyright (c) 2022 Isaac Overstreet._ 
+ 
+ ##### Contact
+ * _Github: `https://github.com/mrunderoad`_
+ * _Email: `isaacoverstreet3@gmail.com`_
+ * _Linkedin: `https://www.linkedin.com/in/isaac-overstreet/`_
 
 
 
