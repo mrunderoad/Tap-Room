@@ -31,12 +31,6 @@ input {
   text-align: center;
 }
 
-input:focus {
-  background-color: rgb(255, 213, 0);
-  border-radius: 2px;
-  text-align: center;
-}
-
 .head {
   color: antiquewhite;
   text-shadow: 2px 2px 2px black;
