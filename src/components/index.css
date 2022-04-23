@@ -22,6 +22,7 @@ body {
   margin-left: 500px;
   margin-right: 500px;
   padding: 5px;
+  border-radius: 20px;
 }
 
 input {
@@ -48,8 +49,7 @@ input {
 }
 
 button {
-  background-color: black;
-  color: rgb(0, 195, 255);
+  color: rgb(0, 0, 0);
 }
 
 .message {
@@ -66,6 +66,6 @@ button {
 
 .click {
   background-color: yellow;
-  width: 120px;
-  margin-left: 202px;
+  width: 320px;
+  margin-left: 102px;
 }
