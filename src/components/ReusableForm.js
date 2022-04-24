@@ -31,7 +31,9 @@ function ReusableForm(props) {
         name='caffeineContent'
         placeholder='Caffeine Content' 
         required />
+        <hr />
         <button type='submit'>{props.buttonText}</button>
+        <hr />
       </form>
     </React.Fragment>
   );
