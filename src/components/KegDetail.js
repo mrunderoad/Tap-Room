@@ -18,15 +18,17 @@ function KegDetail(props){
 
   return (
     <React.Fragment>
-      <h1>Keg Details</h1>
-      <h2>Brand: {keg.brand}</h2>
-      <h3>Name: {keg.name}</h3>
-      <h3 class="flav">Flavor: {keg.flavor}</h3>
-      <h3 class="price">Price: ${keg.price}</h3>
-      <h3>Caffeine Content: {keg.caffeineContent}</h3>
-      <h4 class="pint">Pints left: {keg.pint}</h4>
-      <h3 class="message">{kegMessage}</h3>
-      <h3 class="message2">{kegMessage2}</h3>
+      <div class="detail">
+      <h1 class="dt">Keg Details</h1>
+      <h2 class="dt">Brand: {keg.brand}</h2>
+      <h3 class="dt">Name: {keg.name}</h3>
+      <h3 class="flav dt">Flavor: {keg.flavor}</h3>
+      <h3 class="price dt">Price: ${keg.price}</h3>
+      <h3 class="dt">Caffeine Content: {keg.caffeineContent}</h3>
+      <h4 class="pint dt">Pints left: {keg.pint}</h4>
+      <h3 class="message dt">{kegMessage}</h3>
+      <h3 class="message2 dt">{kegMessage2}</h3>
+      </div>
       <hr />
       <button onClick={ props.onClickingEdit }>Update Keg Details</button> { }
       <button onClick={() => onClickingDelete(keg.id) }>Delete Keg From List</button> { }
