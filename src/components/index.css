@@ -92,3 +92,7 @@ button {
   margin-left: 105px;
   border-radius: 20px;
 }
+
+.out {
+  color: red;
+}
